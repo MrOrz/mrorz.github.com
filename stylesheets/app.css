@@ -129,7 +129,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 80em;
   *zoom: 1;
 }
 /* line 167, ../sass/foundation/_foundation-global.sass */
@@ -145,8 +145,8 @@ select {
 .row .column,
 .row .columns {
   position: relative;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
+  padding-left: 1em;
+  padding-right: 1em;
   width: 100%;
   float: left;
 }
@@ -161,8 +161,8 @@ select {
 /* line 117, ../sass/foundation/components/_grid.scss */
 .row .row {
   width: auto;
-  margin-left: -0.9375em;
-  margin-right: -0.9375em;
+  margin-left: -1em;
+  margin-right: -1em;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -199,8 +199,8 @@ select {
   .row .column,
   .row .columns {
     position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
+    padding-left: 1em;
+    padding-right: 1em;
     float: left;
   }
 
@@ -1484,14 +1484,14 @@ p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 1.53846em;
+  line-height: 1.618;
+  margin-bottom: 1em;
   text-rendering: optimizeLegibility;
 }
 /* line 168, ../sass/foundation/components/_type.scss */
 p aside {
   font-size: 1.07692em;
-  line-height: 1.35;
+  line-height: 1.618;
   font-style: italic;
 }
 
@@ -1505,7 +1505,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
-  line-height: 1.16923em;
+  line-height: 1.38723em;
 }
 /* line 186, ../sass/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -1587,8 +1587,8 @@ ul,
 ol,
 dl {
   font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 1.53846em;
+  line-height: 1.618;
+  margin-bottom: 1em;
   list-style-position: outside;
   font-family: inherit;
 }
@@ -1661,7 +1661,7 @@ abbr {
 /* Blockquotes */
 /* line 301, ../sass/foundation/components/_type.scss */
 blockquote {
-  margin: 0 0 1.53846em;
+  margin: 0 0 1em;
   padding: 0.69231em 1.53846em 0 1.46154em;
   border-left: 1px solid #dddddd;
 }
@@ -1684,7 +1684,7 @@ blockquote cite a:visited {
 /* line 321, ../sass/foundation/components/_type.scss */
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.618;
   color: #6f6f6f;
 }
 
@@ -1723,7 +1723,7 @@ blockquote p {
 @media only screen and (min-width: 48em) {
   /* line 357, ../sass/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4;
+    line-height: 1.618;
   }
 
   /* line 358, ../sass/foundation/components/_type.scss */
@@ -3694,7 +3694,7 @@ form.custom .custom.disabled {
 
   /* line 342, ../sass/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 80em;
     margin: 0 auto;
   }
 
