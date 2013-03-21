@@ -378,11 +378,11 @@ blockquote p {
       text-shadow: none !important;
     }
 
-    a,
-    a:visited { text-decoration: underline;}
-    a[href]:after { content: " (" attr(href) ")"; }
+    // a,
+    // a:visited { text-decoration: underline;}
+    // a[href]:after { content: " (" attr(href) ")"; }
 
-    abbr[title]:after { content: " (" attr(title) ")"; }
+    // abbr[title]:after { content: " (" attr(title) ")"; }
 
     // Don't show links for images, or javascript/internal links
     .ir a:after,

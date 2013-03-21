@@ -44,7 +44,7 @@ $block-grid-media-queries: true !default;
 
 @if $block-grid-media-queries {
   /* Foundation Block Grids for below small breakpoint */
-  @media only screen {
+  // @media only screen {
     [class*="block-grid-"] { @include block-grid; }
 
     @for $i from 1 through $block-grid-elements {
@@ -52,7 +52,7 @@ $block-grid-media-queries: true !default;
         @include block-grid($i,$block-grid-default-spacing,false);
       }
     }
-  }
+  // }
 
   /* Foundation Block Grids for above small breakpoint */
   @media #{$small} {
