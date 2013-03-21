@@ -43,16 +43,16 @@ $block-grid-media-queries: true !default;
 }
 
 @if $block-grid-media-queries {
-  /* Foundation Block Grids for below small breakpoint */
-  // @media only screen {
-    [class*="block-grid-"] { @include block-grid; }
+  [class*="block-grid-"] { @include block-grid; }
 
+  /* Foundation Block Grids for below small breakpoint */
+  @media #{$smaller} {
     @for $i from 1 through $block-grid-elements {
       .small-block-grid-#{($i)} {
         @include block-grid($i,$block-grid-default-spacing,false);
       }
     }
-  // }
+  }
 
   /* Foundation Block Grids for above small breakpoint */
   @media #{$small} {
@@ -61,6 +61,6 @@ $block-grid-media-queries: true !default;
         @include block-grid($i,$block-grid-default-spacing,false);
       }
     }
-    [class*="small-block-grid-"] > li { clear: none !important; }
+    // [class*="small-block-grid-"] > li { clear: none !important; }
   }
 }
