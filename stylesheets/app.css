@@ -3971,64 +3971,71 @@ table tfoot tr td {
   max-width: 800px;
 }
 
-/* line 3, ../sass/_index.sass */
-.page-break {
-  display: none;
+@page {
+  margin: 2cm;
 }
 
 @media print {
-  /* line 7, ../sass/_index.sass */
+  /* line 8, ../sass/_index.sass */
   body {
     width: 1000px;
     margin: 0 auto;
   }
 
-  /* line 13, ../sass/_index.sass */
+  /* line 14, ../sass/_index.sass */
   div:not(.reveal-modal) {
     display: inherit !important;
   }
 
-  /* line 17, ../sass/_index.sass */
+  /* line 18, ../sass/_index.sass */
   .label {
     border: 1px solid #999999;
     color: #999999;
   }
-  /* line 20, ../sass/_index.sass */
+  /* line 21, ../sass/_index.sass */
   .label.alert {
     border-color: #d92545;
     color: #d92545;
   }
-  /* line 23, ../sass/_index.sass */
+  /* line 24, ../sass/_index.sass */
   .label.success {
     border-color: #abdb25;
     color: #abdb25;
   }
-  /* line 26, ../sass/_index.sass */
+  /* line 27, ../sass/_index.sass */
   .label.secondary {
     border-color: #cccccc;
     color: #cccccc;
   }
 
-  /* line 30, ../sass/_index.sass */
-  .page-break {
+  /* line 31, ../sass/_index.sass */
+  .footer {
+    margin-top: 5cm;
+    text-align: center;
     display: block;
+    width: 1000px;
+  }
+
+  /* line 37, ../sass/_index.sass */
+  .page-break {
+    border-color: transparent;
     page-break-before: always;
   }
 }
-/* line 35, ../sass/_index.sass */
+/* line 42, ../sass/_index.sass */
 a.th > img {
   vertical-align: bottom;
 }
 
 @media print, only screen and (min-width: 48em) {
-  /* line 38, ../sass/_index.sass */
+  /* line 45, ../sass/_index.sass */
   header {
     padding-top: 4.375em;
     padding-bottom: 4.375em;
   }
 }
 
-/* line 43, ../sass/_index.sass */
+/* line 50, ../sass/_index.sass */
 img.round {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -4037,13 +4044,13 @@ img.round {
   border-radius: 1000px;
 }
 
-/* line 48, ../sass/_index.sass */
+/* line 55, ../sass/_index.sass */
 ul.multicolumns {
   list-style-position: inside;
 }
 
 @media print, only screen and (min-width: 48em) {
-  /* line 51, ../sass/_index.sass */
+  /* line 58, ../sass/_index.sass */
   .multicolumns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -4053,7 +4060,7 @@ ul.multicolumns {
   }
 }
 
-/* line 55, ../sass/_index.sass */
+/* line 62, ../sass/_index.sass */
 .two.multicolumns {
   -webkit-columns: 1.8em 2;
   -moz-columns: 1.8em 2;

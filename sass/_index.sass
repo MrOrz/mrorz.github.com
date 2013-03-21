@@ -1,11 +1,12 @@
 @import compass/css3
 
-.page-break
-  display: none
+@page
+  margin: 2cm /* All margins set to 2cm */
 
 @media print
+  $print-body-width: 1000px
   body
-    width: 1000px
+    width: $print-body-width
     margin: 0 auto
 
   // Foundation print hack
@@ -27,9 +28,15 @@
       border-color: $secondary-color
       color: $secondary-color
 
+  .footer
+    margin-top: 5cm
+    text-align: center
+    display: block
+    width: $print-body-width
+
   .page-break
     // http://davidwalsh.name/css-page-breaks
-    display: block
+    border-color: transparent
     page-break-before: always
 
 a.th>img
