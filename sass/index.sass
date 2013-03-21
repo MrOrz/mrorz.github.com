@@ -1,5 +1,12 @@
 @import compass/css3
 
+// Foundation print hack
+// https://github.com/zurb/foundation/issues/1285
+@media print
+  div:not(.reveal-modal)
+    display: inherit !important
+
+
 header
   @media #{$small}
     padding-top: $paragraph-font-size * 5

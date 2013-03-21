@@ -1,11 +1,9 @@
 /*
 Syntax error: Undefined variable: "$small".
-        on line 4 of /Users/mrorz/workspace/mrorz.github.com/sass/index.sass
-
-1: /Users/mrorz/workspace/mrorz.github.com/sass/index.sass
+        on line 11 of /Users/mrorz/workspace/mrorz.github.com/sass/index.sass
 
 Backtrace:
-/Users/mrorz/workspace/mrorz.github.com/sass/index.sass:4
+/Users/mrorz/workspace/mrorz.github.com/sass/index.sass:11
 /Users/mrorz/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.7/lib/sass/script/variable.rb:49:in `_perform'
 /Users/mrorz/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.7/lib/sass/script/node.rb:40:in `perform'
 /Users/mrorz/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:398:in `block in run_interp_no_strip'
@@ -85,4 +83,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$small\".\A         on line 4 of /Users/mrorz/workspace/mrorz.github.com/sass/index.sass\A \A 1: /Users/mrorz/workspace/mrorz.github.com/sass/index.sass"; }
+  content: "Syntax error: Undefined variable: \"$small\".\A         on line 11 of /Users/mrorz/workspace/mrorz.github.com/sass/index.sass"; }

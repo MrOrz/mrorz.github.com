@@ -3993,15 +3993,21 @@ table tfoot tr td {
   max-width: 800px;
 }
 
+@media print {
+  /* line 6, ../sass/index.sass */
+  div:not(.reveal-modal) {
+    display: inherit !important;
+  }
+}
 @media only screen and (min-width: 48em) {
-  /* line 3, ../sass/index.sass */
+  /* line 10, ../sass/index.sass */
   header {
     padding-top: 4.375em;
     padding-bottom: 4.375em;
   }
 }
 
-/* line 8, ../sass/index.sass */
+/* line 15, ../sass/index.sass */
 img.round {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -4010,13 +4016,13 @@ img.round {
   border-radius: 1000px;
 }
 
-/* line 13, ../sass/index.sass */
+/* line 20, ../sass/index.sass */
 ul.multicolumns {
   list-style-position: inside;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 16, ../sass/index.sass */
+  /* line 23, ../sass/index.sass */
   .multicolumns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -4026,7 +4032,7 @@ ul.multicolumns {
   }
 }
 
-/* line 20, ../sass/index.sass */
+/* line 27, ../sass/index.sass */
 .two.multicolumns {
   -webkit-columns: 1.8em 2;
   -moz-columns: 1.8em 2;
