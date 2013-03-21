@@ -1,0 +1,21 @@
+@import compass/css3
+
+header
+  @media #{$small}
+    padding-top: $paragraph-font-size * 5
+    padding-bottom: $paragraph-font-size * 5
+
+img.round
+  +border-radius($global-rounded)
+
+// Multicolumn will crop outside-positioned list item
+// Thus we must make it inside.
+ul.multicolumns
+  list-style-position: inside
+
+.multicolumns
+  @media #{$small}
+    +column-count(1)
+
+.two.multicolumns
+  +columns($column-gutter 2)
