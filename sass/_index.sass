@@ -1,0 +1,57 @@
+@import compass/css3
+
+.page-break
+  display: none
+
+@media print
+  body
+    width: 1000px
+    margin: 0 auto
+
+  // Foundation print hack
+  // https://github.com/zurb/foundation/issues/1285
+  div:not(.reveal-modal)
+    display: inherit !important
+
+  // Add borders to printed labels
+  .label
+    border: 1px solid $primary-color
+    color: $primary-color
+    &.alert
+      border-color: $alert-color
+      color: $alert-color
+    &.success
+      border-color: $success-color
+      color: $success-color
+    &.secondary
+      border-color: $secondary-color
+      color: $secondary-color
+
+  .page-break
+    // http://davidwalsh.name/css-page-breaks
+    display: block
+    page-break-before: always
+
+a.th>img
+  vertical-align: bottom  // Eliminate the bottom gap
+
+header
+  @media #{$small}
+    padding-top: $paragraph-font-size * 5
+    padding-bottom: $paragraph-font-size * 5
+
+img.round
+  +border-radius($global-rounded)
+
+// Multicolumn will crop outside-positioned list item
+// Thus we must make it inside.
+ul.multicolumns
+  list-style-position: inside
+
+.multicolumns
+  @media #{$small}
+    +column-count(1)
+
+.two.multicolumns
+  +columns($column-gutter 2)
+

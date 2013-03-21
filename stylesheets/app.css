@@ -194,169 +194,168 @@ select {
   clear: both;
 }
 
-@media only screen {
-  /* line 125, ../sass/foundation/components/_grid.scss */
-  .row .column,
-  .row .columns {
-    position: relative;
-    padding-left: 0.9em;
-    padding-right: 0.9em;
-    float: left;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-1 {
-    position: relative;
-    width: 8.33333%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-2 {
-    position: relative;
-    width: 16.66667%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-3 {
-    position: relative;
-    width: 25%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-4 {
-    position: relative;
-    width: 33.33333%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-5 {
-    position: relative;
-    width: 41.66667%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-6 {
-    position: relative;
-    width: 50%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-7 {
-    position: relative;
-    width: 58.33333%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-8 {
-    position: relative;
-    width: 66.66667%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-9 {
-    position: relative;
-    width: 75%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-10 {
-    position: relative;
-    width: 83.33333%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-11 {
-    position: relative;
-    width: 91.66667%;
-  }
-
-  /* line 128, ../sass/foundation/components/_grid.scss */
-  .row .small-12 {
-    position: relative;
-    width: 100%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-1 {
-    position: relative;
-    margin-left: 8.33333%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-2 {
-    position: relative;
-    margin-left: 16.66667%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-3 {
-    position: relative;
-    margin-left: 25%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-4 {
-    position: relative;
-    margin-left: 33.33333%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-5 {
-    position: relative;
-    margin-left: 41.66667%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-6 {
-    position: relative;
-    margin-left: 50%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-7 {
-    position: relative;
-    margin-left: 58.33333%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-8 {
-    position: relative;
-    margin-left: 66.66667%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-9 {
-    position: relative;
-    margin-left: 75%;
-  }
-
-  /* line 132, ../sass/foundation/components/_grid.scss */
-  .row .small-offset-10 {
-    position: relative;
-    margin-left: 83.33333%;
-  }
-
-  /* line 135, ../sass/foundation/components/_grid.scss */
-  [class*="column"] + [class*="column"]:last-child {
-    float: right;
-  }
-
-  /* line 136, ../sass/foundation/components/_grid.scss */
-  [class*="column"] + [class*="column"].end {
-    float: left;
-  }
-
-  /* line 139, ../sass/foundation/components/_grid.scss */
-  .column.small-centered,
-  .columns.small-centered {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    float: none !important;
-  }
+/* line 125, ../sass/foundation/components/_grid.scss */
+.row .column,
+.row .columns {
+  position: relative;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  float: left;
 }
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-1 {
+  position: relative;
+  width: 8.33333%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-2 {
+  position: relative;
+  width: 16.66667%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-3 {
+  position: relative;
+  width: 25%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-4 {
+  position: relative;
+  width: 33.33333%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-5 {
+  position: relative;
+  width: 41.66667%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-6 {
+  position: relative;
+  width: 50%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-7 {
+  position: relative;
+  width: 58.33333%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-8 {
+  position: relative;
+  width: 66.66667%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-9 {
+  position: relative;
+  width: 75%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-10 {
+  position: relative;
+  width: 83.33333%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-11 {
+  position: relative;
+  width: 91.66667%;
+}
+
+/* line 128, ../sass/foundation/components/_grid.scss */
+.row .small-12 {
+  position: relative;
+  width: 100%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-1 {
+  position: relative;
+  margin-left: 8.33333%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-2 {
+  position: relative;
+  margin-left: 16.66667%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-3 {
+  position: relative;
+  margin-left: 25%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-4 {
+  position: relative;
+  margin-left: 33.33333%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-5 {
+  position: relative;
+  margin-left: 41.66667%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-6 {
+  position: relative;
+  margin-left: 50%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-7 {
+  position: relative;
+  margin-left: 58.33333%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-8 {
+  position: relative;
+  margin-left: 66.66667%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-9 {
+  position: relative;
+  margin-left: 75%;
+}
+
+/* line 132, ../sass/foundation/components/_grid.scss */
+.row .small-offset-10 {
+  position: relative;
+  margin-left: 83.33333%;
+}
+
+/* line 135, ../sass/foundation/components/_grid.scss */
+[class*="column"] + [class*="column"]:last-child {
+  float: right;
+}
+
+/* line 136, ../sass/foundation/components/_grid.scss */
+[class*="column"] + [class*="column"].end {
+  float: left;
+}
+
+/* line 139, ../sass/foundation/components/_grid.scss */
+.column.small-centered,
+.columns.small-centered {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
+
 /* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 146, ../sass/foundation/components/_grid.scss */
   .row .large-1 {
     position: relative;
@@ -782,7 +781,7 @@ th.hide-for-xlarge {
 }
 
 /* Medium Displays: 768px - 1279px */
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 83, ../sass/foundation/components/_visibility.scss */
   .show-for-medium,
   .show-for-medium-up {
@@ -1148,32 +1147,32 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* Foundation Block Grids for below small breakpoint */
-@media only screen {
-  /* line 48, ../sass/foundation/components/_block-grid.scss */
-  [class*="block-grid-"] {
-    display: block;
-    padding: 0;
-    margin: 0 -10px;
-    *zoom: 1;
-  }
-  /* line 167, ../sass/foundation/_foundation-global.sass */
-  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
-    content: " ";
-    display: table;
-  }
-  /* line 170, ../sass/foundation/_foundation-global.sass */
-  [class*="block-grid-"]:after {
-    clear: both;
-  }
-  /* line 26, ../sass/foundation/components/_block-grid.scss */
-  [class*="block-grid-"] > li {
-    display: block;
-    height: auto;
-    float: left;
-    padding: 0 10px 10px;
-  }
+/* line 46, ../sass/foundation/components/_block-grid.scss */
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -10px;
+  *zoom: 1;
+}
+/* line 167, ../sass/foundation/_foundation-global.sass */
+[class*="block-grid-"]:before, [class*="block-grid-"]:after {
+  content: " ";
+  display: table;
+}
+/* line 170, ../sass/foundation/_foundation-global.sass */
+[class*="block-grid-"]:after {
+  clear: both;
+}
+/* line 26, ../sass/foundation/components/_block-grid.scss */
+[class*="block-grid-"] > li {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 10px 10px;
+}
 
+/* Foundation Block Grids for below small breakpoint */
+@media only screen and (max-width: 48em) {
   /* line 35, ../sass/foundation/components/_block-grid.scss */
   .small-block-grid-1 > li {
     width: 100%;
@@ -1295,7 +1294,7 @@ th.hide-for-touch {
   }
 }
 /* Foundation Block Grids for above small breakpoint */
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 35, ../sass/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
@@ -1414,11 +1413,6 @@ th.hide-for-touch {
   /* line 39, ../sass/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li:nth-of-type(12n+1) {
     clear: both;
-  }
-
-  /* line 64, ../sass/foundation/components/_block-grid.scss */
-  [class*="small-block-grid-"] > li {
-    clear: none !important;
   }
 }
 /* line 106, ../sass/foundation/components/_type.scss */
@@ -1720,7 +1714,7 @@ blockquote p {
   padding: 0 0.0625em;
 }
 
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 357, ../sass/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.618;
@@ -1765,22 +1759,6 @@ blockquote p {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important;
-  }
-
-  /* line 382, ../sass/foundation/components/_type.scss */
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  /* line 383, ../sass/foundation/components/_type.scss */
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  /* line 385, ../sass/foundation/components/_type.scss */
-  abbr[title]:after {
-    content: " (" attr(title) ")";
   }
 
   /* line 390, ../sass/foundation/components/_type.scss */
@@ -2105,7 +2083,7 @@ button.button.large {
     border-radius: 1000px;
   }
 }
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 213, ../sass/foundation/components/_buttons.scss */
   .button {
     display: inline-block;
@@ -2631,7 +2609,7 @@ button.button.large {
   position: relative;
 }
 
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 224, ../sass/foundation/components/_section.scss */
   .section-container.auto {
     border: 0;
@@ -2824,7 +2802,7 @@ button.button.large {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 116, ../sass/foundation/components/_reveal.scss */
   .reveal-modal {
     padding: 1.875em;
@@ -2955,7 +2933,7 @@ button.button.large {
   display: none;
 }
 
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 108, ../sass/foundation/components/_clearing.scss */
   .clearing-main-left,
   .clearing-main-right {
@@ -3835,7 +3813,7 @@ table tfoot tr td {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 48em) {
+@media print, only screen and (min-width: 48em) {
   /* line 83, ../sass/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent black transparent;
@@ -3993,21 +3971,64 @@ table tfoot tr td {
   max-width: 800px;
 }
 
+/* line 3, ../sass/_index.sass */
+.page-break {
+  display: none;
+}
+
 @media print {
-  /* line 6, ../sass/index.sass */
+  /* line 7, ../sass/_index.sass */
+  body {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* line 13, ../sass/_index.sass */
   div:not(.reveal-modal) {
     display: inherit !important;
   }
+
+  /* line 17, ../sass/_index.sass */
+  .label {
+    border: 1px solid #999999;
+    color: #999999;
+  }
+  /* line 20, ../sass/_index.sass */
+  .label.alert {
+    border-color: #d92545;
+    color: #d92545;
+  }
+  /* line 23, ../sass/_index.sass */
+  .label.success {
+    border-color: #abdb25;
+    color: #abdb25;
+  }
+  /* line 26, ../sass/_index.sass */
+  .label.secondary {
+    border-color: #cccccc;
+    color: #cccccc;
+  }
+
+  /* line 30, ../sass/_index.sass */
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
 }
-@media only screen and (min-width: 48em) {
-  /* line 10, ../sass/index.sass */
+/* line 35, ../sass/_index.sass */
+a.th > img {
+  vertical-align: bottom;
+}
+
+@media print, only screen and (min-width: 48em) {
+  /* line 38, ../sass/_index.sass */
   header {
     padding-top: 4.375em;
     padding-bottom: 4.375em;
   }
 }
 
-/* line 15, ../sass/index.sass */
+/* line 43, ../sass/_index.sass */
 img.round {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -4016,13 +4037,13 @@ img.round {
   border-radius: 1000px;
 }
 
-/* line 20, ../sass/index.sass */
+/* line 48, ../sass/_index.sass */
 ul.multicolumns {
   list-style-position: inside;
 }
 
-@media only screen and (min-width: 48em) {
-  /* line 23, ../sass/index.sass */
+@media print, only screen and (min-width: 48em) {
+  /* line 51, ../sass/_index.sass */
   .multicolumns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -4032,7 +4053,7 @@ ul.multicolumns {
   }
 }
 
-/* line 27, ../sass/index.sass */
+/* line 55, ../sass/_index.sass */
 .two.multicolumns {
   -webkit-columns: 1.8em 2;
   -moz-columns: 1.8em 2;
