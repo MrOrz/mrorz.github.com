@@ -3972,7 +3972,7 @@ table tfoot tr td {
 }
 
 @page {
-  margin: 2cm;
+  margin: 1.5cm;
 }
 
 @media print {
@@ -4023,20 +4023,26 @@ table tfoot tr td {
   }
 }
 /* line 42, ../sass/_index.sass */
+body {
+  padding-bottom: 5em;
+}
+
+/* line 45, ../sass/_index.sass */
 a.th > img {
   vertical-align: bottom;
 }
 
 @media print, only screen and (min-width: 48em) {
-  /* line 45, ../sass/_index.sass */
+  /* line 48, ../sass/_index.sass */
   header {
     padding-top: 4.375em;
     padding-bottom: 4.375em;
   }
 }
 
-/* line 50, ../sass/_index.sass */
-img.round {
+/* line 53, ../sass/_index.sass */
+img.round, a.th.round, a.th.round > img {
+  display: block;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   -ms-border-radius: 1000px;
@@ -4044,13 +4050,13 @@ img.round {
   border-radius: 1000px;
 }
 
-/* line 55, ../sass/_index.sass */
+/* line 59, ../sass/_index.sass */
 ul.multicolumns {
   list-style-position: inside;
 }
 
 @media print, only screen and (min-width: 48em) {
-  /* line 58, ../sass/_index.sass */
+  /* line 62, ../sass/_index.sass */
   .multicolumns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -4060,7 +4066,7 @@ ul.multicolumns {
   }
 }
 
-/* line 62, ../sass/_index.sass */
+/* line 66, ../sass/_index.sass */
 .two.multicolumns {
   -webkit-columns: 1.8em 2;
   -moz-columns: 1.8em 2;
