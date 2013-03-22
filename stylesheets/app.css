@@ -3971,44 +3971,52 @@ table tfoot tr td {
   max-width: 800px;
 }
 
+@font-face {
+  font-family: Entypo;
+  src: url("../fonts/entypo.eot");
+  src: url("../fonts/entypo.eot?#iefix") format("embedded-opentype"), url("../fonts/entypo.woff") format("woff"), url("../fonts/entypo.ttf") format("truetype"), url("../fonts/entypo.svg#Entypo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @page {
   margin: 1.5cm;
 }
 
 @media print {
-  /* line 8, ../sass/_index.sass */
+  /* line 16, ../sass/_index.sass */
   body {
     width: 1000px;
     margin: 0 auto;
   }
 
-  /* line 14, ../sass/_index.sass */
+  /* line 22, ../sass/_index.sass */
   div:not(.reveal-modal) {
     display: inherit !important;
   }
 
-  /* line 18, ../sass/_index.sass */
+  /* line 26, ../sass/_index.sass */
   .label {
     border: 1px solid #999999;
     color: #999999;
   }
-  /* line 21, ../sass/_index.sass */
+  /* line 29, ../sass/_index.sass */
   .label.alert {
     border-color: #d92545;
     color: #d92545;
   }
-  /* line 24, ../sass/_index.sass */
+  /* line 32, ../sass/_index.sass */
   .label.success {
     border-color: #abdb25;
     color: #abdb25;
   }
-  /* line 27, ../sass/_index.sass */
+  /* line 35, ../sass/_index.sass */
   .label.secondary {
     border-color: #cccccc;
     color: #cccccc;
   }
 
-  /* line 31, ../sass/_index.sass */
+  /* line 39, ../sass/_index.sass */
   .footer {
     margin-top: 5cm;
     text-align: center;
@@ -4016,33 +4024,25 @@ table tfoot tr td {
     width: 1000px;
   }
 
-  /* line 37, ../sass/_index.sass */
+  /* line 45, ../sass/_index.sass */
   .page-break {
     border-color: transparent;
     page-break-before: always;
   }
 }
-/* line 42, ../sass/_index.sass */
+/* line 50, ../sass/_index.sass */
 body {
   padding-bottom: 5em;
 }
 
-/* line 45, ../sass/_index.sass */
+/* line 53, ../sass/_index.sass */
 a.th > img {
   vertical-align: bottom;
 }
 
-@media print, only screen and (min-width: 48em) {
-  /* line 48, ../sass/_index.sass */
-  header {
-    padding-top: 4.375em;
-    padding-bottom: 4.375em;
-  }
-}
-
-/* line 53, ../sass/_index.sass */
+/* line 56, ../sass/_index.sass */
 img.round, a.th.round, a.th.round > img {
-  display: block;
+  display: inline-block;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   -ms-border-radius: 1000px;
@@ -4050,27 +4050,72 @@ img.round, a.th.round, a.th.round > img {
   border-radius: 1000px;
 }
 
-/* line 59, ../sass/_index.sass */
-ul.multicolumns {
-  list-style-position: inside;
+/* line 60, ../sass/_index.sass */
+.icon-team, .icon-supervisor {
+  font-family: Entypo;
+  margin: 0 0.25em;
+  width: 1em;
+  font-style: normal;
+  font-size: 2em;
+}
+
+/* line 69, ../sass/_index.sass */
+.icon-team:before {
+  content: "\1F464";
+}
+
+/* line 74, ../sass/_index.sass */
+.icon-supervisor:before {
+  content: "\1F393";
 }
 
 @media print, only screen and (min-width: 48em) {
-  /* line 62, ../sass/_index.sass */
-  .multicolumns {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -ms-column-count: 1;
-    -o-column-count: 1;
-    column-count: 1;
+  /* line 79, ../sass/_index.sass */
+  header {
+    padding-top: 4.375em;
+    padding-bottom: 4.375em;
   }
-}
 
-/* line 66, ../sass/_index.sass */
-.two.multicolumns {
-  -webkit-columns: 1.8em 2;
-  -moz-columns: 1.8em 2;
-  -ms-columns: 1.8em 2;
-  -o-columns: 1.8em 2;
-  columns: 1.8em 2;
+  /* line 83, ../sass/_index.sass */
+  a.th.zoom-on-hover, a.th.zoom-on-hover > img {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+  }
+
+  /* line 88, ../sass/_index.sass */
+  a.th.zoom-on-hover {
+    z-index: 1;
+    position: relative;
+  }
+  /* line 94, ../sass/_index.sass */
+  a.th.zoom-on-hover:hover {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transform: scale(2, 2);
+    -moz-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    transform: scale(2, 2);
+  }
+  /* line 97, ../sass/_index.sass */
+  a.th.zoom-on-hover:hover > img {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+  }
 }
