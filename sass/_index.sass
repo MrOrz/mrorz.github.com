@@ -1,6 +1,7 @@
 @import compass/css3
 
 // Entypo font
+// Entypo pictograms by Daniel Bruce — www.entypo.com
 @font-face
   font-family: Entypo
   src: url('../fonts/entypo.eot')
@@ -57,22 +58,20 @@ img.round, a.th.round, a.th.round>img
   display: inline-block
   +border-radius($global-rounded)
 
-%entypo
+.icon
   font-family: Entypo
   margin: 0 0.25em
-  width: 1em
   font-style: normal
-  font-size: 2em
 
-.icon-team
-  @extend %entypo
-  &:before
-    content: '\1F464'
+// .icon-team
+//   @extend %entypo
+//   &:before
+//     content: '\1F464'
 
-.icon-supervisor
-  @extend %entypo
-  &:before
-    content: '\1F393'
+// .icon-supervisor
+//   @extend %entypo
+//   &:before
+//     content: '\1F393'
 
 // Styles for large screens
 @media #{$small}
